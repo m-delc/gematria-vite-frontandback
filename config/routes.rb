@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :english_ordinals
+  resources :values
   resources :alphabets
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
