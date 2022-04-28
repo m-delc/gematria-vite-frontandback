@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_04_28_040138) do
+ActiveRecord::Schema[7.0].define(version: 2022_04_28_044059) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -25,6 +25,9 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_28_040138) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "english_ordinal"
+    t.integer "full_reduction"
+    t.integer "reverse_ordinal"
+    t.integer "reverse_full_reduction"
   end
 
 end
