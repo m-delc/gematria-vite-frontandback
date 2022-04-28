@@ -1,3 +1,3 @@
 class EnglishOrdinal < ApplicationRecord
-    belongs_to: alphabet
+    belongs_to :alphabet
 end
