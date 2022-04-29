@@ -1,3 +1,3 @@
 class Alphabet < ApplicationRecord
-    has_many :english_ordinal
+    has_many :values
 end

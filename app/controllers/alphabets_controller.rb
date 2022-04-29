@@ -5,7 +5,7 @@ class AlphabetsController < ApplicationController
   def index
     @alphabets = Alphabet.all
 
-    render json: @alphabets
+    render json: @alphabets, include: :values
   end
 
   # GET /alphabets/1
